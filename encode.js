@@ -1,7 +1,7 @@
 
 function encode(input) {
   const length = input.length
-  if( input === null) {
+  if(!input) {
     return '$-1\r\n'
   } else if (typeof input === 'string') {
     return '$' + length + '\r\n' + input + '\r\n'
