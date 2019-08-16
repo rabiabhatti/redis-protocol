@@ -1,0 +1,9 @@
+{
+  "name": "redis-protocol",
+  "version": "0.0.1",
+  "description": "My first redis protocol encode decode app",
+  "dependencies": {
+    "http": "*",
+    "fs": "*"
+  }
+}
